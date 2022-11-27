@@ -1,0 +1,41 @@
+.header{
+    background-color: red;
+    color: #fff;
+}
+
+&__burger {
+    position: relative;
+    span {
+        height: 2px;
+        background-color: white;
+    }
+    :first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    :last-child {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    :nth-child(2){
+        position: absolute;
+        left: 0;
+        top: calc(50%-1px);
+    }
+    &.active {
+    }
+    :first-child {
+       transform: rotate(45deg);
+        
+    }
+    :last-child {
+        
+        transform: rotate(-45deg);
+    }
+    :nth-child(2){
+        display: none;
+        
+    }
+}
