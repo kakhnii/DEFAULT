@@ -8,3 +8,5 @@ let slider = $(document).ready(function () {
   });
 });
 
+
+$('header__burger').on()
