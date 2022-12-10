@@ -1,4 +1,106 @@
-.footer{
-    background-color: black;
-    color: #fff;
+footer {
+    background-color: #053412;
+    color: #B9E8C6;
+
+
+
+    .container {
+        height: 320px;
+
+        .row {
+            height: 108px;
+            align-items: center;
+
+
+
+            nav {
+                margin-left: 50px;
+
+
+
+
+                ul {
+                    align-items: center;
+
+                    li {
+                        list-style: none;
+img {
+    width: 14px;
+    height: 6px;
+    color: #B9E8C6;
+}
+
+                        a {
+                            align-items: center;
+                            text-decoration: none;
+                            color: #B9E8C6;
+                            font-family: 'Roboto Condensed';
+                            font-weight: 700;
+                            font-size: 24px;
+                            line-height: 24px;
+                            margin: 0 20px 0 20px;
+                            white-space: nowrap;
+                            &:hover {
+                                background: #B9E8C6;
+                                color: black;
+                                border-radius: 10px;
+                                padding: 5px 0 5px 0;
+
+                            }
+                        }
+                    }
+
+                }
+
+                @media screen and (max-width:990px) {
+                    display: none !important;
+                }
+            }
+
+        }
+
+        .row {
+            .col-12 {
+                .col-6 {
+                    a {
+                        font-family: 'Roboto Condensed';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 23px;
+                        text-decoration: none;
+                        color: #C0ECCC;
+                    }
+                }
+
+                .col-6 {
+                    p {
+                        font-family: 'Roboto Condensed';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 21px;
+                        line-height: 19px;
+                        padding: 10px 0;
+                        color: #ffffff;
+                    }
+
+                    :nth-child(1) {
+                        color: #C1C1C1;
+                    }
+
+                }
+
+            }
+        }
+
+    }
+
+    .down-text {
+        width: 100%;
+        background: #01270C;
+
+        p {
+            text-align: center;
+        }
+    }
 }
